@@ -10,13 +10,13 @@
 <meta name="description" content="" />
 <meta name="author" content="" />
 <title>결제 페이지</title>
-<link href="/date/resources/css/styles.css" rel="stylesheet" />
-<script type="text/javascript" src="/date/resources/js/scripts.js"></script>
-<link href="/date/resources/css/banner.css" rel="stylesheet" />
-<link href="/date/resources/css/pay.css" rel="stylesheet" />
+<link href="/jum5/resources/css/styles.css" rel="stylesheet" />
+<script type="text/javascript" src="/jum5/resources/js/scripts.js"></script>
+<link href="/jum5/resources/css/banner.css" rel="stylesheet" />
+<link href="/jum5/resources/css/pay.css" rel="stylesheet" />
 <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-<link href="/date/resources/css/footer.css" rel="stylesheet" />
-<link href="/date/resources/css/dropdown.css" rel="stylesheet" />
+<link href="/jum5/resources/css/footer.css" rel="stylesheet" />
+<link href="/jum5/resources/css/dropdown.css" rel="stylesheet" />
 <script type="text/javascript" src="https://service.iamport.kr/js/iamport.payment-1.1.8.js"></script>
 </head>
 <body>
@@ -26,7 +26,7 @@
  	
  	<div class="pay_wrap" style="margin-top:60px;height:700px">
  		<div style="display:inline-block;margin-right:80px;">
- 			<img class="payImg" src="/date/resources/images/date.jpg" width="400" height="500">
+ 			<img class="payImg" src="/jum5/resources/images/date.jpg" width="400" height="500">
  		</div>
  		<div style="display:inline-block;vertical-align:top">
  			<div class="payTitle"><strong>데이트 이용권</strong></div>
@@ -133,7 +133,7 @@
     <c:if test="${loginVo==null }">
     	<script type="text/javascript">
     		alert("로그인 후 이용 가능합니다");
-    		location.href="/date/loginForm";
+    		location.href="/jum5/loginForm";
     	</script>
     </c:if>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>

@@ -4,7 +4,7 @@ $(document).ready(function(){
 				if(fn_valiChk()){
 					return false;
 				}
-				formObj.attr("action", "/date/user/review/reviewWriting");
+				formObj.attr("action", "/jum5/user/review/reviewWriting");
 				formObj.attr("method", "post");
 				formObj.submit();
 			});

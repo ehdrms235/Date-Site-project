@@ -10,11 +10,11 @@
 <meta name="description" content="" />
 <meta name="author" content="" />
 <title>회원 탈퇴 페이지</title>
-<link href="/date/resources/css/styles.css" rel="stylesheet" />
-<link href="/date/resources/css/banner.css" rel="stylesheet" />
-<link href="/date/resources/css/footer.css" rel="stylesheet" />
-<link href="/date/resources/css/dropdown.css" rel="stylesheet" />
-<script type="text/javascript" src="/date/resources/js/scripts.js"></script>
+<link href="/jum5/resources/css/styles.css" rel="stylesheet" />
+<link href="/jum5/resources/css/banner.css" rel="stylesheet" />
+<link href="/jum5/resources/css/footer.css" rel="stylesheet" />
+<link href="/jum5/resources/css/dropdown.css" rel="stylesheet" />
+<script type="text/javascript" src="/jum5/resources/js/scripts.js"></script>
 </head>
 <style>
 table {
@@ -30,7 +30,7 @@ table, td, th {
 <body>
 <!-- 네비게이션 바 -->
 <%@include file="/WEB-INF/views/user/common/header.jsp" %>
-<form action="/date/delete" method="POST">
+<form action="/jum5delete" method="POST">
 ${id } 를 삭제 하시겠습니까? <br>
 비밀번호 <input type="password" name="pwd" />
 <input type="submit" value="삭제">

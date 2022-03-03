@@ -9,7 +9,7 @@
 <body>
 <script type="text/javascript">
 	alert("회원 정보가 변경되었습니다!");
-	location.href="/date/";
+	location.href="/jum5/";
 </script>
 </body>
 </html>

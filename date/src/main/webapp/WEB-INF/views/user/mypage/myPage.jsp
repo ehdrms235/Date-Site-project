@@ -14,15 +14,15 @@
 <meta name="description" content="" />
 <meta name="author" content="" />
 <title>마이 페이지</title>
-<link href="/date/resources/css/styles.css" rel="stylesheet" />
-<link href="/date/resources/css/banner.css" rel="stylesheet" />
-<link href="/date/resources/css/footer.css" rel="stylesheet" />
-<link href="/date/resources/css/mypage.css" rel="stylesheet" />
-<link href="/date/resources/css/dropdown.css" rel="stylesheet" />
-<script type="text/javascript" src="/date/resources/js/scripts.js"></script>
+<link href="/jum5/resources/css/styles.css" rel="stylesheet" />
+<link href="/jum5/resources/css/banner.css" rel="stylesheet" />
+<link href="/jum5/resources/css/footer.css" rel="stylesheet" />
+<link href="/jum5/resources/css/mypage.css" rel="stylesheet" />
+<link href="/jum5/resources/css/dropdown.css" rel="stylesheet" />
+<script type="text/javascript" src="/jum5/resources/js/scripts.js"></script>
 <meta charset="UTF-8">
 <title>마이페이지 테스트</title>
-<link rel="stylesheet" type="text/css" href="/date/resources/style.css" />
+<link rel="stylesheet" type="text/css" href="/jum5/resources/style.css" />
 </head>
 <body>
 <!-- 네비게이션 바 -->
@@ -40,7 +40,7 @@
 				프로필을 등록하세요.
 			</c:if>
 			<c:if test="${!empty profileVo}">
-				<img src="/date/resources/images/${profileVo.imageFile}" class="profileImg" height="230" width="140">
+				<img src="/jum5/resources/images/${profileVo.imageFile}" class="profileImg" height="230" width="140">
 			</c:if>
 		</div>
 		</c:forEach>
@@ -181,7 +181,7 @@
 		<td class="infoTitle"><li>신청한 사람</li></td>
 		<td class="infoTitle" style="padding-left:20px;"><a onclick="window.open(this.href, '_blank', 'width=600, height=500'); return false;" href="<c:url value="readProfile/${metchVo.senderId }" />">${metchVo.senderId }</a></td>
 		<td>
-			<form:form commandName="metchVo" action="/date/accept?idx=${metchVo.idx }" >
+			<form:form commandName="metchVo" action="/jum5/accept?idx=${metchVo.idx }" >
 			<label for="metchStatus"></label>
 			<input type="radio" value="1" id="metchStatus" name="metchStatus">수락
 			<input type="radio" value="-1" id="metchStatus" name = "metchStatus">거절

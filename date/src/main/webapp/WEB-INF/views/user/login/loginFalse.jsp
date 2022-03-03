@@ -7,7 +7,7 @@
 <title>로그인 오류</title>
 <script>
 	alert('아이디 또는 패스워드가 다릅니다.');
-	location.href="/date/loginForm";
+	location.href="/jum5/loginForm";
 </script>
 </head>
 <body>

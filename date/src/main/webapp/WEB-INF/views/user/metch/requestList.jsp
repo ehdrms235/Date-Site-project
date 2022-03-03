@@ -10,12 +10,12 @@
 <meta name="description" content="" />
 <meta name="author" content="" />
 <title>메인 페이지</title>
-<link href="/date/resources/css/styles.css" rel="stylesheet" />
-<link href="/date/resources/css/banner.css" rel="stylesheet" />
-<link href="/date/resources/css/footer.css" rel="stylesheet" />
-<link href="/date/resources/css/metchList.css" rel="stylesheet" />
-<link href="/date/resources/css/dropdown.css" rel="stylesheet" />
-<script type="text/javascript" src="/date/resources/js/scripts.js"></script>
+<link href="/jum5/resources/css/styles.css" rel="stylesheet" />
+<link href="/jum5/resources/css/banner.css" rel="stylesheet" />
+<link href="/jum5/resources/css/footer.css" rel="stylesheet" />
+<link href="/jum5/resources/css/metchList.css" rel="stylesheet" />
+<link href="/jum5/resources/css/dropdown.css" rel="stylesheet" />
+<script type="text/javascript" src="/jum5/resources/js/scripts.js"></script>
 </head>
 <body>
 
@@ -50,7 +50,7 @@
 				</c:when>
 				<c:when test = "${requestList.metchStatus ==1}">
 					<td class="metchingWord">수락</td>
-					<td><a onclick="window.open(this.href, '_blank', 'width=650, height=500'); return false;" href="/date/chat"><button class="qaButton" type="button">채팅하기</button></a>
+					<td><a onclick="window.open(this.href, '_blank', 'width=650, height=500'); return false;" href="/jum5/chat"><button class="qaButton" type="button">채팅하기</button></a>
 				</c:when>
 			</c:choose>
 		</tr>
@@ -59,14 +59,14 @@
 <c:if test="${loginVo==null }">
 	<script type="text/javascript">
 		alert("로그인 후 이용가능합니다.");
-		location.href="/date/loginForm"''
+		location.href="/jum5/loginForm"''
 	</script>
 </c:if>
 <c:if test="${loginVo!=null }">
 	<c:if test="${empty requestList }">
 		<script type="text/javascript">
 			alert("매칭 현황이 없습니다!");
-			location.href="/date/";
+			location.href="/jum5/";
 		</script>
 	</c:if>
 </c:if>

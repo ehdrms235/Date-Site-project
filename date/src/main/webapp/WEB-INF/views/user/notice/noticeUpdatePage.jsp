@@ -5,14 +5,14 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<link href="/date/resources/css/styles.css" rel="stylesheet" />
-<link href="/date/resources/css/banner.css" rel="stylesheet" />
-<link href="/date/resources/css/footer.css" rel="stylesheet" />
-<link href="/date/resources/css/reviewForm.css" rel="stylesheet" />
-<link href="/date/resources/css/dropdown.css" rel="stylesheet" />
+<link href="/jum5/resources/css/styles.css" rel="stylesheet" />
+<link href="/jum5/resources/css/banner.css" rel="stylesheet" />
+<link href="/jum5/resources/css/footer.css" rel="stylesheet" />
+<link href="/jum5/resources/css/reviewForm.css" rel="stylesheet" />
+<link href="/jum5/resources/css/dropdown.css" rel="stylesheet" />
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-<script src="/date/resources/js/notice.js"></script>
-<script src="/date/resources/js/noticeUpdate.js"></script>
+<script src="/jum5/resources/js/notice.js"></script>
+<script src="/jum5/resources/js/noticeUpdate.js"></script>
 <title>공지사항 수정</title>
 <style>
 #btn {

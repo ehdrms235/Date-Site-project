@@ -122,7 +122,7 @@ public class NoticeController {
 	@RequestMapping(value = "/noticeFileDown")
 	public void noticeFileDown(@RequestParam Map<String , Object> map , HttpServletResponse response) throws Exception {
 		
-		String path = "C:/Users/ehdrm/git/date2/date/date/src/main/webapp/resources/noticeImage/";
+		String path = "C:/Users/ehdrm/git/Date-Site-project/date/src/main/webapp/resources/noticeImage/";
 		
 		Map<String , Object> resultMap = service.selectFileInfo(map);
 		

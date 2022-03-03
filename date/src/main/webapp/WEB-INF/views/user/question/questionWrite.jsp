@@ -10,12 +10,12 @@
 <meta name="description" content="" />
 <meta name="author" content="" />
 <title>Q&A 작성</title>
-<link href="/date/resources/css/styles.css" rel="stylesheet" />
-<link href="/date/resources/css/banner.css" rel="stylesheet" />
-<link href="/date/resources/css/footer.css" rel="stylesheet" />
-<link href="/date/resources/css/qaWrite.css" rel="stylesheet" />
-<link href="/date/resources/css/dropdown.css" rel="stylesheet" />
-<script type="text/javascript" src="/date/resources/js/scripts.js"></script>
+<link href="/jum5/resources/css/styles.css" rel="stylesheet" />
+<link href="/jum5/resources/css/banner.css" rel="stylesheet" />
+<link href="/jum5/resources/css/footer.css" rel="stylesheet" />
+<link href="/jum5/resources/css/qaWrite.css" rel="stylesheet" />
+<link href="/jum5/resources/css/dropdown.css" rel="stylesheet" />
+<script type="text/javascript" src="/jum5/resources/js/scripts.js"></script>
 </head>
 <body>
 <!-- 네비게이션 바 -->
@@ -54,7 +54,7 @@
    <c:if test="${loginVo==null }">
    	<script type="text/javascript">
    		alert("로그인을 먼저 하세요");
-   		location.href="/date/loginForm";
+   		location.href="/jum5/loginForm";
    	</script>
    </c:if>
 

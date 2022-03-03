@@ -9,7 +9,7 @@
 <body>
 <script type="text/javascript">
 	alert("프로필이 수정되었습니다.");
-	location.href="/date/mypage";
+	location.href="/jum5/mypage";
 </script>
 </body>
 </html>

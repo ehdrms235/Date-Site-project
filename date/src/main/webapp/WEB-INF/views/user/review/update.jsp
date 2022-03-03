@@ -5,14 +5,14 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<link href="/date/resources/css/styles.css" rel="stylesheet" />
-<link href="/date/resources/css/banner.css" rel="stylesheet" />
-<link href="/date/resources/css/footer.css" rel="stylesheet" />
-<link href="/date/resources/css/reviewForm.css" rel="stylesheet" />
-<link href="/date/resources/css/dropdown.css" rel="stylesheet" />
+<link href="/jum5/resources/css/styles.css" rel="stylesheet" />
+<link href="/jum5/resources/css/banner.css" rel="stylesheet" />
+<link href="/jum5/resources/css/footer.css" rel="stylesheet" />
+<link href="/jum5/resources/css/reviewForm.css" rel="stylesheet" />
+<link href="/jum5/resources/css/dropdown.css" rel="stylesheet" />
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-<script src="/date/resources/js/resources/js/review.js"></script>
-<script src="/date/resources/js/reviewUpdate.js"></script>
+<script src="/jum5/resources/js/resources/js/review.js"></script>
+<script src="/jum5/resources/js/reviewUpdate.js"></script>
 <title>게시글 수정</title>
 </head>
 <body>
@@ -23,7 +23,7 @@
 		
 		<div id="root">
 		<section id="container">
-			<form name="updateForm" role="form" method="post" action="/date/user/review/update" enctype="multipart/form-data">
+			<form name="updateForm" role="form" method="post" action="/jum5/user/review/update" enctype="multipart/form-data">
 				<input type="hidden" name="seq" value="${update.seq}" readonly="readonly"/>
 				<input type="hidden" id="page" name="page" value="${scri.page}"> 
 				<input type="hidden" id="perPageNum" name="perPageNum" value="${scri.perPageNum}"> 

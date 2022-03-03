@@ -16,7 +16,7 @@ import com.date.jum5.user.notice.vo.NoticeVo;
 
 @Component("NoticeUtil")
 public class NoticeUtil {
-private static final String FILE_PATH = "C:/Users/ehdrm/git/date2/date/date/src/main/webapp/resources/noticeImage/"; // 파일 저장 위치
+private static final String FILE_PATH = "C:/Users/ehdrm/git/Date-Site-project/date/src/main/webapp/resources/noticeImage/"; // 파일 저장 위치
 	
 	public List<Map<String , Object>> parselnsertFileInfo(NoticeVo vo,
 			MultipartHttpServletRequest mpRequest) throws Exception {

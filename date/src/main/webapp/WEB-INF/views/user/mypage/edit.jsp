@@ -10,11 +10,11 @@
 <meta name="description" content="" />
 <meta name="author" content="" />
 <title>메인 페이지</title>
-<link href="/date/resources/css/styles.css" rel="stylesheet" />
-<link href="/date/resources/css/banner.css" rel="stylesheet" />
-<link href="/date/resources/css/footer.css" rel="stylesheet" />
-<link href="/date/resources/css/dropdown.css" rel="stylesheet" />
-<script type="text/javascript" src="/date/resources/js/scripts.js"></script>
+<link href="/jum5/resources/css/styles.css" rel="stylesheet" />
+<link href="/jum5/resources/css/banner.css" rel="stylesheet" />
+<link href="/jum5/resources/css/footer.css" rel="stylesheet" />
+<link href="/jum5/resources/css/dropdown.css" rel="stylesheet" />
+<script type="text/javascript" src="/jum5/resources/js/scripts.js"></script>
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 <style>
 table {
@@ -27,7 +27,7 @@ table, td, th {
     border : 1px solid black;
 };
 </style>
-<link rel="stylesheet" type="text/css" href="/date/resources/style.css" />
+<link rel="stylesheet" type="text/css" href="/jum5/resources/style.css" />
 <meta charset="UTF-8">
 <title>회원정보 수정</title>
 </head>
@@ -59,7 +59,7 @@ table, td, th {
     	<a href="<c:url value="/mypage" />">마이페이지</a>
     	</div>
     </form:form>
-    <script src="/date/resources/js/signValid.js"></script>
+    <script src="/jum5/resources/js/signValid.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     
 	<%@include file="/WEB-INF/views/user/common/footer.jsp" %>

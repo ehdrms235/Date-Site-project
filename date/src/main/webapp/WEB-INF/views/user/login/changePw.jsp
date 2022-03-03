@@ -10,12 +10,12 @@
 <meta name="description" content="" />
 <meta name="author" content="" />
 <title>비밀번호 변경 페이지</title>
-<link href="/date/resources/css/styles.css" rel="stylesheet" />
-<link href="/date/resources/css/banner.css" rel="stylesheet" />
-<link href="/date/resources/css/footer.css" rel="stylesheet" />
-<link href="/date/resources/css/pwFind.css" rel="stylesheet" />
-<link href="/date/resources/css/dropdown.css" rel="stylesheet" />
-<script type="text/javascript" src="/date/resources/js/scripts.js"></script>
+<link href="/jum5/resources/css/styles.css" rel="stylesheet" />
+<link href="/jum5/resources/css/banner.css" rel="stylesheet" />
+<link href="/jum5/resources/css/footer.css" rel="stylesheet" />
+<link href="/jum5/resources/css/pwFind.css" rel="stylesheet" />
+<link href="/jum5/resources/css/dropdown.css" rel="stylesheet" />
+<script type="text/javascript" src="/jum5/resources/js/scripts.js"></script>
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 </head>
 <body>
@@ -45,7 +45,7 @@
 	<c:if test="${pwCheck==true }">
 		<script type="text/javascript">
 			alert("비밀번호가 변경되었습니다!")
-			location.href="/date/loginForm";
+			location.href="/jum5/loginForm";
 		</script>
 	</c:if>
 	

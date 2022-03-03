@@ -13,7 +13,7 @@
 		history.back(-1);
 	} else if (${msg}==2) {
 		alert("회원 탈퇴가 완료되었습니다!");
-		location.href="/date/";
+		location.href="/jum5/";
 	}
 	
 </script>

@@ -76,7 +76,7 @@ public class MyPageController {
 				System.out.println("오리지날 이름 : "+originalFileName);
 				UUID uuid =UUID.randomUUID();
 				fileName=uuid+"."+"jpg";
-				uploadFile.transferTo(new File("C:\\Users\\ehdrm\\git\\date2\\date\\date\\src\\main\\webapp\\resources\\images\\"+fileName));
+				uploadFile.transferTo(new File("C:\\Users\\ehdrm\\git\\Date-Site-project\\date\\src\\main\\webapp\\resources\\images\\"+fileName));
 			
 			}
 			profileVo.setImageFile(fileName);

@@ -93,7 +93,7 @@ public class LoginController {
 		String reqUrl = 
 				"https://kauth.kakao.com/oauth/authorize"
 				+ "?client_id=4ce3789c43e59a00faf9d8115fab8b56"
-				+ "&redirect_uri=http://localhost:8080/date/login/oauth_kakao"
+				+ "&redirect_uri=http://localhost:8080/jum5/login/oauth_kakao"
 				+ "&response_type=code";
 		
 		return reqUrl;
@@ -175,7 +175,7 @@ public class LoginController {
             StringBuilder sb = new StringBuilder();
             sb.append("grant_type=authorization_code");
             sb.append("&client_id=4ce3789c43e59a00faf9d8115fab8b56"); 
-            sb.append("&redirect_uri=http://localhost:8080/date/login/oauth_kakao"); 
+            sb.append("&redirect_uri=http://localhost:8080/jum5/login/oauth_kakao"); 
             sb.append("&code=" + authorize_code);
             bw.write(sb.toString());
             bw.flush();

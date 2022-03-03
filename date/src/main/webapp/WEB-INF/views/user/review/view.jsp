@@ -7,14 +7,14 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<link href="/date/resources/css/styles.css" rel="stylesheet" />
-<link href="/date/resources/css/banner.css" rel="stylesheet" />
-<link href="/date/resources/css/footer.css" rel="stylesheet" />
-<link href="/date/resources/css/qaContent.css" rel="stylesheet" />
-<link href="/date/resources/css/dropdown.css" rel="stylesheet" />
+<link href="/jum5/resources/css/styles.css" rel="stylesheet" />
+<link href="/jum5/resources/css/banner.css" rel="stylesheet" />
+<link href="/jum5/resources/css/footer.css" rel="stylesheet" />
+<link href="/jum5/resources/css/qaContent.css" rel="stylesheet" />
+<link href="/jum5/resources/css/dropdown.css" rel="stylesheet" />
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-<script type="text/javascript" src="/date/resources/js/review.js"></script>
-<script type="text/javascript" src="/date/resources/js/view.js"></script>
+<script type="text/javascript" src="/jum5/resources/js/review.js"></script>
+<script type="text/javascript" src="/jum5/resources/js/view.js"></script>
 <title>게시글</title>
 
 </head>
@@ -50,13 +50,13 @@
 	<c:forEach var="file" items="${file}" varStatus="var">
 	<form id = "frm">
 		<input type="hidden" id="seq" name="seq"/>
-		<img width="400" height="350" src="/date/resources/metchImages/${file.STORED_FILE_NAME}"/>
+		<img width="400" height="350" src="/jum5/resources/metchImages/${file.STORED_FILE_NAME}"/>
 	</form>
 	</c:forEach>
 	</div>
 	
 	<c:forEach var="file" items="${file}" varStatus="var">
-		<a href="/date/user/review/fileDownLoad?fileNum=${file.FILENUM}">${file.ORG_FILE_NAME}</a>
+		<a href="/jum5/user/review/fileDownLoad?fileNum=${file.FILENUM}">${file.ORG_FILE_NAME}</a>
 		(${file.FILE_SIZE}kb)
 	</c:forEach>
 	
@@ -82,7 +82,7 @@
 	</div>
 	
 	<section class="replyForm">
-		<form role="form" method="post" action="/date/user/review/replyWrite">
+		<form role="form" method="post" action="/jum5/user/review/replyWrite">
 			<input type="hidden" id="seq" name="seq" value="${view.seq}" readonly="readonly" />
 			<input type="hidden" id="page" name="page" value="${scri.page}" readonly="readonly" />
 			<input type="hidden" id="perPageNum" name="perPageNum" value="${scri.perPageNum}" readonly="readonly" />
@@ -108,7 +108,7 @@
 		</form>
 		
 		<div style="margin-bottom:20px;">
-			<button class="qaButton" type="button" onclick='location.href="/date/user/review/list"'>목록</button>
+			<button class="qaButton" type="button" onclick='location.href="/jum5/user/review/list"'>목록</button>
 			<button class="qaButton" type="button" onclick='goUpdateView(${view.seq})'>수정</button>
 			<button class="qaButton" type="button" onclick='reviewDelete(${view.seq})'>삭제</button>	
 		</div>

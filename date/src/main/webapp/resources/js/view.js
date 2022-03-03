@@ -5,7 +5,7 @@ $(function() {
 	});
 	//댓글 수정 View
 	function replyUpdateBtn(seq, rseq) {
-		location.href = "/date/user/review/replyUpdateView?seq=" + seq
+		location.href = "/jum5/user/review/replyUpdateView?seq=" + seq
 			+ "&page=${scri.page}"
 			+ "&perPageNum=${scri.perPageNum}"
 			+ "&searchType=${scri.searchType}"
@@ -15,7 +15,7 @@ $(function() {
 	
 	//댓글 삭제 View
 	function replyDeleteBtn(seq , rseq) {
-		location.href = "/date/user/review/replyDeleteView?seq=" + seq
+		location.href = "/jum5/user/review/replyDeleteView?seq=" + seq
 			+ "&page=${scri.page}"
 			+ "&perPageNum=${scri.perPageNum}"
 			+ "&searchType=${scri.searchType}"

@@ -5,7 +5,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<title>웹소켓 채팅</title>
-	<link rel="stylesheet" href="/date/resources/css/chat.css" />
+	<link rel="stylesheet" href="/jum5/resources/css/chat.css" />
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/sockjs-client/1.4.0/sockjs.js"></script>
 	<script type="text/javascript">

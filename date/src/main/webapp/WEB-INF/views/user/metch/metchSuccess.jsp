@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8" http-equiv="refresh" content="3; url=/date/mypage">
+<meta charset="UTF-8" http-equiv="refresh" content="3; url=/jum5/mypage">
 <title>Insert title here</title>
 </head>
 <body>

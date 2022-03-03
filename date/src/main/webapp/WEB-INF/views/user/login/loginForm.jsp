@@ -9,12 +9,12 @@
 <meta name="description" content="" />
 <meta name="author" content="" />
 <title>로그인 페이지</title>
-<link href="/date/resources/css/styles.css" rel="stylesheet" />
-<link href="/date/resources/css/banner.css" rel="stylesheet" />
-<link href="/date/resources/css/footer.css" rel="stylesheet" />
-<link href="/date/resources/css/login.css" rel="stylesheet" />
-<link href="/date/resources/css/dropdown.css" rel="stylesheet" />
-<script type="text/javascript" src="/date/resources/js/scripts.js"></script>
+<link href="/jum5/resources/css/styles.css" rel="stylesheet" />
+<link href="/jum5/resources/css/banner.css" rel="stylesheet" />
+<link href="/jum5/resources/css/footer.css" rel="stylesheet" />
+<link href="/jum5/resources/css/login.css" rel="stylesheet" />
+<link href="/jum5/resources/css/dropdown.css" rel="stylesheet" />
+<script type="text/javascript" src="/jum5/resources/js/scripts.js"></script>
 <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
 </head>
 <body>
@@ -23,7 +23,7 @@
 	<h1><strong>쩜 오 0.5</strong></h1>
 		
 		<div class="loginWrap">
-			<form action="/date/login" method="post">
+			<form action="/jum5/login" method="post">
 			<table>
 				<tr>
 					<td colspan="3"><input class="loginInput" id="id" name="id" type="text" placeholder="아이디" required></td>
@@ -35,15 +35,15 @@
 					<td colspan="3"><button class="loginButton" type="submit">로그인</button></td>
 				</tr>
 				<tr>
-					<td><a href="/date/signup">회원 가입</a></td>
-					<td><a href="/date/idSearch">아이디 찾기</a></td>
-					<td><a href="/date/pwSearch">비밀번호 찾기</a></td>
+					<td><a href="/jum5/signup">회원 가입</a></td>
+					<td><a href="/jum5/idSearch">아이디 찾기</a></td>
+					<td><a href="/jum5/pwSearch">비밀번호 찾기</a></td>
 					
 				</tr>
 				<tr>
 					<td colspan="3">
 						<a href="javascript:kakaoLogin();">
-						<img src="/date/resources/images/kakao_button.png">
+						<img src="/jum5/resources/images/kakao_button.png">
 						</a>
 					</td>
 				</tr>
@@ -56,7 +56,7 @@
   //카카오로그인
   function kakaoLogin() {
     $.ajax({
-        url: '/date/login/getKakaoAuthUrl',
+        url: '/jum5/login/getKakaoAuthUrl',
         type: 'get',
         async: false,
         dataType: 'text',

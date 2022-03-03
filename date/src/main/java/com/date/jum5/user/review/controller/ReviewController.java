@@ -159,7 +159,7 @@ public class ReviewController {
 	@RequestMapping(value = "/fileDownLoad")
 	public void fileDownLoad(@RequestParam Map<String , Object> map , HttpServletResponse response) throws Exception {
 		
-		String path = "C:/Users/ehdrm/git/date2/date/date/src/main/webapp/resources/metchImages/";
+		String path = "C:/Users/ehdrm/git/Date-Site-project/date/src/main/webapp/resources/noticeImage/";
 		
 		Map<String , Object> resultMap = service.selectFileInfo(map);
 		

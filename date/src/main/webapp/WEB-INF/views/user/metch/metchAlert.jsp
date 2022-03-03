@@ -11,13 +11,13 @@
 		var msg = ${msg};
 		if (msg==1) {
 			alert("로그인 후 이용 가능합니다.");
-			location.href="/date/loginForm";	
+			location.href="/jum5/loginForm";	
 		} else if (msg==2) {
 			alert("데이트 신청이 완료되었습니다!");
-			location.href="/date/";
+			location.href="/jum5/";
 		} else if (msg==3) {
 			alert("데이트 잔여 횟수가 없습니다!");
-			location.href="/date/pay";
+			location.href="/jum5/pay";
 		}
 	</script>
 </body>

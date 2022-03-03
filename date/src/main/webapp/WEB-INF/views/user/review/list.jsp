@@ -5,13 +5,13 @@
 <html>
 <head>
 <meta name="UTF-8">
-	<link href="/date/resources/css/styles.css" rel="stylesheet" />
-	<link href="/date/resources/css/banner.css" rel="stylesheet" />
-	<link href="/date/resources/css/footer.css" rel="stylesheet" />
-	<link href="/date/resources/css/reviewList.css" rel="stylesheet" />
-	<link href="/date/resources/css/dropdown.css" rel="stylesheet" />
+	<link href="/jum5/resources/css/styles.css" rel="stylesheet" />
+	<link href="/jum5/resources/css/banner.css" rel="stylesheet" />
+	<link href="/jum5/resources/css/footer.css" rel="stylesheet" />
+	<link href="/jum5/resources/css/reviewList.css" rel="stylesheet" />
+	<link href="/jum5/resources/css/dropdown.css" rel="stylesheet" />
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-	<script src="/date/resources/js/review.js"></script>
+	<script src="/jum5/resources/js/review.js"></script>
 <title>매칭 후기</title>
 </head>
 <body>
@@ -63,7 +63,7 @@
 				<button type="button" class="qaButton" onclick="notLogin()">글쓰기</button>
 			</c:if>
 			<c:if test="${ loginVo != null }">
-				<button type="button" class="qaButton" onclick="location.href='/date/user/review/reviewForm'">글쓰기</button>
+				<button type="button" class="qaButton" onclick="location.href='/jum5/user/review/reviewForm'">글쓰기</button>
 			</c:if>
 		</div>
 		<div class="pageWrap">

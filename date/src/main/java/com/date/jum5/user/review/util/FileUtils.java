@@ -17,7 +17,7 @@ import com.date.jum5.user.review.vo.ReviewVo;
 @Component("fileUtils")
 public class FileUtils {
 
-	private static final String FILE_PATH = "C:/Users/ehdrm/git/date2/date/date/src/main/webapp/resources/metchImages/";
+	private static final String FILE_PATH = "C:/Users/ehdrm/git/Date-Site-project/date/src/main/webapp/resources/noticeImage/";
 	
 	public List<Map<String , Object>> parselnsertFileInfo(ReviewVo vo, MultipartHttpServletRequest request) throws Exception {
 		

@@ -7,13 +7,13 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
-<link rel="stylesheet" href="/date/resources/css/readProfile.css" />
+<link rel="stylesheet" href="/jum5/resources/css/readProfile.css" />
 </head>
 <body>
 <c:forEach var="profileVo" items="${profileVo }">
 <table>
 	<tr>
-		<td style="width:200px;" rowspan="10"><img src="/date/resources/images/${profileVo.imageFile}" height="280" width="180"></td>
+		<td style="width:200px;" rowspan="10"><img src="/jum5/resources/images/${profileVo.imageFile}" height="280" width="180"></td>
 		<td class="infoTitle">키</td>
 		<td class="infoTitle" style="padding-left:15px;">${profileVo.height }</td>
 	</tr>

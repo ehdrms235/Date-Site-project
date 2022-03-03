@@ -41,7 +41,7 @@
 	
 	<tr>
 	<td>
-	<form:form commandName="metchVo" action="/date/accept?idx=${metchVo.idx }" >
+	<form:form commandName="metchVo" action="/jum5/accept?idx=${metchVo.idx }" >
 	<label for="metchStatus"></label>
 	<input type="radio" value="1" id="metchStatus" name="metchStatus">수락
 	<input type="radio" value="-1" id="metchStatus" name = "metchStatus">거절

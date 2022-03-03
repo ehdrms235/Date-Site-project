@@ -9,7 +9,7 @@
 <body>
 <script type="text/javascript">
 	alert("프로필 등록을 완료하였습니다");
-	location.href="/date/";
+	location.href="/jum5/";
 </script>
 </body>
 </html>

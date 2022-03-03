@@ -4,10 +4,10 @@
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
 <html>
 <head>
-<link href="/date/resources/css/styles.css" rel="stylesheet" />
-<link href="/date/resources/css/banner.css" rel="stylesheet" />
-<link href="/date/resources/css/footer.css" rel="stylesheet" />
-<link href="/date/resources/css/dropdown.css" rel="stylesheet" />
+<link href="/jum5/resources/css/styles.css" rel="stylesheet" />
+<link href="/jum5/resources/css/banner.css" rel="stylesheet" />
+<link href="/jum5/resources/css/footer.css" rel="stylesheet" />
+<link href="/jum5/resources/css/dropdown.css" rel="stylesheet" />
 <script
 	src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <title>게시판</title>
@@ -25,7 +25,7 @@
 		<hr />
 
 		<section id="container">
-			<form name="updateForm" role="form" method="post" action="/date/user/review/replyUpdate">
+			<form name="updateForm" role="form" method="post" action="/jum5/user/review/replyUpdate">
 				<input type="hidden" name="seq" value="${replyUpdate.seq}"
 					readonly="readonly" /> <input type="hidden" id="rseq" name="rseq"
 					value="${replyUpdate.rseq}" /> <input type="hidden" id="page"

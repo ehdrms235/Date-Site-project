@@ -10,12 +10,12 @@
 <meta name="description" content="" />
 <meta name="author" content="" />
 <title>Q&A 검색</title>
-<link href="/date/resources/css/styles.css" rel="stylesheet" />
-<link href="/date/resources/css/banner.css" rel="stylesheet" />
-<link href="/date/resources/css/footer.css" rel="stylesheet" />
-<link href="/date/resources/css/question.css" rel="stylesheet" />
-<link href="/date/resources/css/dropdown.css" rel="stylesheet" />
-<script type="text/javascript" src="/date/resources/js/scripts.js"></script>
+<link href="/jum5/resources/css/styles.css" rel="stylesheet" />
+<link href="/jum5/resources/css/banner.css" rel="stylesheet" />
+<link href="/jum5/resources/css/footer.css" rel="stylesheet" />
+<link href="/jum5/resources/css/question.css" rel="stylesheet" />
+<link href="/jum5/resources/css/dropdown.css" rel="stylesheet" />
+<script type="text/javascript" src="/jum5/resources/js/scripts.js"></script>
 <script type="text/javascript">
 	function searchCheck() {
 		if (document.searchForm.keyword.value=="") {
@@ -37,7 +37,7 @@
     
     <div class="qaList">
     <div class="qaSearch">
-    	<form name="searchForm" method="get" action="/date/qaSearch?keyword=${document.searchForm.keyword.value}">
+    	<form name="searchForm" method="get" action="/jum5/qaSearch?keyword=${document.searchForm.keyword.value}">
  			 <select name="searchType">
  			 	<option value="title">제목</option>
  			 	<option value="content">내용</option>
@@ -69,7 +69,7 @@
     	<c:forEach var="list" items="${searchList }">
     		<tr>
     			<td class="qaId">${list.rnum }</td>
-    			<td class="qaTitle"><a href="/date/qaContent?qaNum=${list.num}">${list.title }</a></td>  
+    			<td class="qaTitle"><a href="/jum5/qaContent?qaNum=${list.num}">${list.title }</a></td>  
     			<td class="qaId">${list.id }</td>			
     			<td class="qaId">${list.count }</td>
     			<td class="qaId">${list.state }</td>
@@ -79,7 +79,7 @@
     </table>
     
     <div style="margin-top:10px;margin-left:730px;">	
-    	<a href="/date/qaWrite"><button class="qaButton" type="button">글쓰기</button></a>
+    	<a href="/jum5/qaWrite"><button class="qaButton" type="button">글쓰기</button></a>
     </div>
     
     <c:set var="list" value="${searchList}"/>
@@ -88,16 +88,16 @@
 		<div>
 		
 		<c:if test="${page.startPage > page.pageBlock}">
-			<a href="/date/qaSearch?searchType=${type}&keyword=${keyword}&num=${page.startPage-1}">[이전]</a>
+			<a href="/jum5/qaSearch?searchType=${type}&keyword=${keyword}&num=${page.startPage-1}">[이전]</a>
 		</c:if>
 		<c:forEach var="block" begin="${page.startPage}" end="${page.endPage}" step="1">
 			
 			
-			<a href="/date/qaSearch?searchType=${type}&keyword=${keyword}&num=${block}">${block}</a>
+			<a href="/jum5/qaSearch?searchType=${type}&keyword=${keyword}&num=${block}">${block}</a>
 		</c:forEach>
 	
 		<c:if test="${page.endPage<page.pageCount}">
-			<a href="/date/qaSearch?searchType=${type}&keyword=${keyword}&num=${page.endPage+1}">[다음]</a>
+			<a href="/jum5/qaSearch?searchType=${type}&keyword=${keyword}&num=${page.endPage+1}">[다음]</a>
 		</c:if>
 		
 		</div>

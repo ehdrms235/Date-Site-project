@@ -11,14 +11,14 @@
 	<meta name="description" content="" />
 	<meta name="author" content="" />
 	<title>회원 가입 페이지</title>
-	<link href="/date/resources/css/styles.css" rel="stylesheet" />
-	<link href="/date/resources/css/banner.css" rel="stylesheet" />
-	<link href="/date/resources/css/footer.css" rel="stylesheet" />
-	<link href="/date/resources/css/signUp.css" rel="stylesheet" />
-	<link href="/date/resources/css/dropdown.css" rel="stylesheet" />
-	<script type="text/javascript" src="/date/resources/js/scripts.js"></script>
+	<link href="/jum5/resources/css/styles.css" rel="stylesheet" />
+	<link href="/jum5/resources/css/banner.css" rel="stylesheet" />
+	<link href="/jum5/resources/css/footer.css" rel="stylesheet" />
+	<link href="/jum5/resources/css/signUp.css" rel="stylesheet" />
+	<link href="/jum5/resources/css/dropdown.css" rel="stylesheet" />
+	<script type="text/javascript" src="/jum5/resources/js/scripts.js"></script>
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-	<link rel="stylesheet" href="/date/resources/css/signUp.css"/>
+	<link rel="stylesheet" href="/jum5/resources/css/signUp.css"/>
 </head>
 <body>
 <!-- 네비게이션 바 -->
@@ -101,7 +101,7 @@
 			</div>
 
 		</form:form>
-<script src="/date/resources/js/signValid.js"></script>
+<script src="/jum5/resources/js/signValid.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 	<%@include file="/WEB-INF/views/user/common/footer.jsp" %>
 </body>

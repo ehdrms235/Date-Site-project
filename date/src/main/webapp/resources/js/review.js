@@ -4,7 +4,7 @@ function goView(seq){
 	
 	var f = $("#frm");
 	
-	f.attr("action", "/date/user/review/view");
+	f.attr("action", "/jum5/user/review/view");
 	f.attr("method", "POST");
 	f.submit();
 };
@@ -13,7 +13,7 @@ function goUpdateView(seq){
 	$("#seq").val(seq);
 	alert("수정");
 	var f = $("#frm");
-	f.attr("action", "/date/user/review/goUpdateView");
+	f.attr("action", "/jum5/user/review/goUpdateView");
 	f.attr("method", "POST");
 	f.submit();
 };
@@ -22,14 +22,14 @@ function goUpdateView(seq){
 function notLogin(){
 	
 	alert('로그인 후 이용해주세요.');
-	location.href='/date/loginForm';
+	location.href='/jum5/loginForm';
 }
 
 function reviewDelete(seq) {
 	$("#seq").val(seq);
 
 	var f = $("#frm");
-	f.attr("action", "/date/user/review/delete");
+	f.attr("action", "/jum5/user/review/delete");
 	f.attr("method", "POST");
 	f.submit();
 };
@@ -42,7 +42,7 @@ $(function() {
 
 //댓글 수정 View
 function replyUpdateBtn(seq, rseq) {
-	location.href = "/date/user/review/replyUpdateView?seq=" + seq
+	location.href = "/jum5/user/review/replyUpdateView?seq=" + seq
 		+ "&page=${scri.page}"
 		+ "&perPageNum=${scri.perPageNum}"
 		+ "&searchType=${scri.searchType}"
@@ -52,7 +52,7 @@ function replyUpdateBtn(seq, rseq) {
 	
 //댓글 삭제 View
 function replyDeleteBtn(seq , rseq) {
-	location.href = "/date/user/review/replyDeleteView?seq=" + seq
+	location.href = "/jum5/user/review/replyDeleteView?seq=" + seq
 		+ "&page=${scri.page}"
 		+ "&perPageNum=${scri.perPageNum}"
 		+ "&searchType=${scri.searchType}"

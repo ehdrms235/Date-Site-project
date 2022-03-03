@@ -6,7 +6,7 @@ $(document).ready(function(){
 					return false;
 				}
 				alert("hello");
-				formObj.attr("action", "/date/user/notice/noticeWrite");
+				formObj.attr("action", "/jum5/user/notice/noticeWrite");
 				formObj.attr("method", "post");
 				formObj.submit();
 			});

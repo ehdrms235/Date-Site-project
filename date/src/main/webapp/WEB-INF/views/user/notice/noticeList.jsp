@@ -5,13 +5,13 @@
 <html>
 <head>
 <meta name="UTF-8">
-	<link href="/date/resources/css/styles.css" rel="stylesheet" />
-	<link href="/date/resources/css/banner.css" rel="stylesheet" />
-	<link href="/date/resources/css/footer.css" rel="stylesheet" />
-	<link href="/date/resources/css/reviewList.css" rel="stylesheet" />
-	<link href="/date/resources/css/dropdown.css" rel="stylesheet" />
+	<link href="/jum5/resources/css/styles.css" rel="stylesheet" />
+	<link href="/jum5/resources/css/banner.css" rel="stylesheet" />
+	<link href="/jum5/resources/css/footer.css" rel="stylesheet" />
+	<link href="/jum5/resources/css/reviewList.css" rel="stylesheet" />
+	<link href="/jum5/resources/css/dropdown.css" rel="stylesheet" />
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-	<script src="/date/resources/js/notice.js"></script>
+	<script src="/jum5/resources/js/notice.js"></script>
 <title>공지사항</title>
 <style>
 	li {list-style : none; float : left;} 
@@ -65,7 +65,7 @@
 					  </ul>
 				</div>
 				<c:if test="${ admin == Y }">
-						<button class="qaButton" type="button" onclick="location.href='/date/user/notice/noticeForm'">글쓰기</button>
+						<button class="qaButton" type="button" onclick="location.href='/jum5/user/notice/noticeForm'">글쓰기</button>
 				</c:if>
 		</form>
 		</div>

@@ -10,12 +10,12 @@
 <meta name="description" content="" />
 <meta name="author" content="" />
 <title>Q&A 내용</title>
-<link href="/date/resources/css/styles.css" rel="stylesheet" />
-<link href="/date/resources/css/banner.css" rel="stylesheet" />
-<link href="/date/resources/css/footer.css" rel="stylesheet" />
-<link href="/date/resources/css/qaContent.css" rel="stylesheet" />
-<link href="/date/resources/css/dropdown.css" rel="stylesheet" />
-<script type="text/javascript" src="/date/resources/js/scripts.js"></script>
+<link href="/jum5/resources/css/styles.css" rel="stylesheet" />
+<link href="/jum5/resources/css/banner.css" rel="stylesheet" />
+<link href="/jum5/resources/css/footer.css" rel="stylesheet" />
+<link href="/jum5/resources/css/qaContent.css" rel="stylesheet" />
+<link href="/jum5/resources/css/dropdown.css" rel="stylesheet" />
+<script type="text/javascript" src="/jum5/resources/js/scripts.js"></script>
 </head>
 <body>
 <!-- 네비게이션 바 -->
@@ -52,10 +52,10 @@
 	</table>
 	
 	<div class="qaButtonWrap">
-		<a href="/date/qaList"><button class="qaButton" type="button">목록</button></a>
+		<a href="/jum5/qaList"><button class="qaButton" type="button">목록</button></a>
 		<c:if test="${qaContent.id == loginVo }">
-			<a href="/date/qaDelete?qaNum=${qaContent.num}"><button class="qaButton" type="button">삭제</button></a>
-			<a href="/date/qaModify?qaNum=${qaContent.num }"><button class="qaButton" type="button">수정</button></a>
+			<a href="/jum5/qaDelete?qaNum=${qaContent.num}"><button class="qaButton" type="button">삭제</button></a>
+			<a href="/jum5/qaModify?qaNum=${qaContent.num }"><button class="qaButton" type="button">수정</button></a>
 		</c:if>
 	</div>
 	

@@ -9,7 +9,7 @@ $(document).ready(function(){
 			
 			$(".cancel_btn").on("click", function(){
 				event.preventDefault();
-				location.href = "/date/user/notice?bno=${update.bno}"
+				location.href = "/jum5/user/notice?bno=${update.bno}"
 					   + "&page=${scri.page}"
 					   + "&perPageNum=${scri.perPageNum}"
 					   + "&searchType=${scri.searchType}"
@@ -20,7 +20,7 @@ $(document).ready(function(){
 				if(fn_valiChk()){
 					return false;
 				}
-				formObj.attr("action", "/date/user/notice/noticeWrite");
+				formObj.attr("action", "/jum5/user/notice/noticeWrite");
 				formObj.attr("method", "post");
 				formObj.submit();
 			})

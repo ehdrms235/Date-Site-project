@@ -10,11 +10,11 @@
 <meta name="description" content="" />
 <meta name="author" content="" />
 <title>메인 페이지</title>
-<link href="/date/resources/css/styles.css" rel="stylesheet" />
-<link href="/date/resources/css/banner.css" rel="stylesheet" />
-<link href="/date/resources/css/footer.css" rel="stylesheet" />
-<link href="/date/resources/css/mainPage.css" rel="stylesheet" />
-<script type="text/javascript" src="/date/resources/js/scripts.js"></script>
+<link href="/jum5/resources/css/styles.css" rel="stylesheet" />
+<link href="/jum5/resources/css/banner.css" rel="stylesheet" />
+<link href="/jum5/resources/css/footer.css" rel="stylesheet" />
+<link href="/jum5/resources/css/mainPage.css" rel="stylesheet" />
+<script type="text/javascript" src="/jum5/resources/js/scripts.js"></script>
 <style>
 a:link{color:pink;}
 a:visited{color:pink;}
@@ -67,19 +67,19 @@ body { text-align: center;}
 <div class="mainWrap">
 <div class="mainServiceWrap">
 	<div class="content">
-		<a href="/date/qaList" ><img src="/date/resources/images/board.png" width="100px;" height="100px;"></a>
+		<a href="/jum5/qaList" ><img src="/jum5/resources/images/board.png" width="100px;" height="100px;"></a>
 		<p class="mainTitle">게시판</p>
 		<p class="mainContent">게시판을 통해</p>
 		<p class="mainContent">소통해보세요</p>
 	</div>
 	<div class="content">
-		<a href="/date/pay"><img src="/date/resources/images/love.png" width="100px;" height="100px;"></a>
+		<a href="/jum5/pay"><img src="/jum5/resources/images/love.png" width="100px;" height="100px;"></a>
 		<p class="mainTitle">이상형</p>
 		<p class="mainContent">원하는 이상형을</p>
 		<p class="mainContent">찾아보세요</p>
 	</div>
 	<div class="content">
-		<a href="/date/metch"><img src="/date/resources/images/money.png" width="100px;" height="100px;"></a>
+		<a href="/jum5/metch"><img src="/jum5/resources/images/money.png" width="100px;" height="100px;"></a>
 		<p class="mainTitle">결제</p>	
 		<p class="mainContent">저렴한 가격으로</p>
 		<p class="mainContent">데이트 신청을 해보세요</p>
@@ -104,7 +104,7 @@ body { text-align: center;}
 	</div>
 	<div class="mainInfoContentWrap" style="vertical-align:top;margin-top:30px;margin-left:80px;">
 		<video autoplay controls loop width="400" height="300" >
-			<source src="/date/resources/videos/wedding.mp4" type="video/mp4">
+			<source src="/jum5/resources/videos/wedding.mp4" type="video/mp4">
 		</video>
 	
 

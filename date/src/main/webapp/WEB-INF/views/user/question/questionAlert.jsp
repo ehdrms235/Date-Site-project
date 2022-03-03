@@ -10,15 +10,15 @@
 	if (qa==1) {
 		var msg = "Q&A 게시물을 삭제했습니다";
 		alert(msg);
-		location.href="/date/qaList";
+		location.href="/jum5/qaList";
 	} else if (qa==2) {
 		var msg = "게시물을 수정하였습니다";
 		alert(msg);
-		location.href="/date/qaList";	
+		location.href="/jum5/qaList";	
 	} else if (qa==3) {
 		var msg="Q&A를 등록하였습니다";
 		alert(msg);
-		location.href="/date/qaList";		
+		location.href="/jum5/qaList";		
 	}
 </script>
 </head>

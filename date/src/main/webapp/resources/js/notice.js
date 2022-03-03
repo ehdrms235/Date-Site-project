@@ -5,7 +5,7 @@ function noticeView(bno){
 	alert("hello");
 	
 	var f = $("#root");
-	f.attr("action", "/date/user/notice/noticeView");
+	f.attr("action", "/jum5/user/notice/noticeView");
 	f.attr("method", "POST");
 	f.submit();
 };
